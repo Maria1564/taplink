@@ -11,6 +11,7 @@ body {
 .page-wrapper {
     overflow: hidden;
     max-width: 375px;
+    height: 812px;
     margin: auto;
     background: #2F5A7B;
     box-shadow: 0px 0px 30px rgba(26, 58, 117, 0.322); /*Добавляет тень к элементу*/
@@ -88,8 +89,7 @@ body {
     box-shadow: 0px 0px 30px 4px rgba(102, 102, 102, 0.25);
     border-radius: 10px;
     margin-top: 9px;
-    margin-bottom: 12px;
-    padding: 23px 59px;
+    padding-bottom: 17px;
 }
 
 .buttons {
@@ -98,6 +98,7 @@ body {
     max-width: 212px;
     margin: auto;
     gap: 22px;
+    padding-top: 23px;
 }
 
 .button {
@@ -127,4 +128,14 @@ body {
 
 .github {
     background: #5B5959;
+    margin: auto;
+    margin-bottom: 14px;
+    max-width: 212px;
+}
+
+.img-card {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 10px;
 }
