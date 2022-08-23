@@ -1,3 +1,40 @@
 *   {
     box-sizing: border-box;
 }
+
+body {
+    background-color: #F5F5F5; /* Фоновый цвет */
+    padding: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.page-wrapper {
+    max-width: 375px;
+    margin: auto;
+    background: #2F5A7B;
+    box-shadow: 0px 0px 30px rgba(26, 58, 117, 0.322); /*Добавляет тень к элементу*/
+    border-radius: 20px;
+}
+
+.header {
+    color: #fff;
+    padding: 21px 50px 130px;
+    background: linear-gradient(0deg, rgba(34, 88, 168, 0.35), rgba(34, 88, 168, 0.35)), url('../img/header-bg.png') no-repeat center / cover; 
+/*cover - ширина или высота изображения равнялась ширине или высоте блока.*/
+    border-radius: 0 0 80px 80px;
+}
+
+.hello {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;  
+    display: block;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hello-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
