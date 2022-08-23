@@ -82,3 +82,49 @@ body {
     margin-left: 33px;
     color: #2D2D2D;
 }
+
+.card {
+    background: #B8BEEE;
+    box-shadow: 0px 0px 30px 4px rgba(102, 102, 102, 0.25);
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    padding: 23px 59px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 212px;
+    margin: auto;
+    gap: 22px;
+}
+
+.button {
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 100%;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.telegram {
+    background: linear-gradient(144.97deg, #2AABEE -34.21%, #4CB9F2 -34.2%, #229ED9 108.95%);
+}
+
+.vk {
+    background: #4C75A3;
+}
+
+.github {
+    background: #5B5959;
+}
